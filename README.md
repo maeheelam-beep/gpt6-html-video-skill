@@ -1,102 +1,116 @@
-<p align="center"><img src="docs/hero.svg" alt="Your brief. Your style. HTML to video." width="100%"></p>
+<p align="center"><img src="docs/hero.svg" alt="Make it move. Keep it editable." width="100%"></p>
 
 # GPT6 HTML Video Skill
 
-### 把一句想法，变成可编辑的 HTML 动画视频。
+### 让想法动起来，让作品改得动。
 
-**你的需求当导演，HTML 当片场。**
+用 GPT-6 / Codex 把想法、脚本和参考设计做成 **HTML 动画，再导出视频**。交付画面的同时保留源码，文案、布局、动作和节奏都能继续调整。
 
-面向 GPT-6 / Codex 的动画视频技能：理解你的内容与参考，选择合适的 HTML/CSS、SVG、Canvas 或 WebGL 实现，保留源码，再导出视频。
+**[看案例](examples/README.md) · [开始使用](#开始使用) · [English](README.en.md) · [日本語](README.ja.md)**
 
-[中文](README.md) · [English](README.en.md) · [日本語](README.ja.md)
+## 先看它能做什么
 
-## 先看作品：五种需求，五种表达
+**产品概念片 · STILL**
 
-原创案例均附 **8 秒 MP4、可运行 HTML、动画源码和再渲染命令**。以下为轻量 GIF 预览，完整画质见[案例合集](examples/README.md)。
+一个虚构的专注设备，用材质、姿态和屏幕波形讲述“安静”。
 
-| 产品概念片 · Product | 数据叙事 · Data |
-| --- | --- |
-| [![Product film](examples/previews/product.gif)](examples/README.md#01--product-film--产品概念片) | [![Data story](examples/previews/data.gif)](examples/README.md#02--data-story--数据叙事) |
-| 科学原理 · Science | 动态排版 · Typography |
-| [![Science explainer](examples/previews/science.gif)](examples/science/) | [![Kinetic typography](examples/previews/typography.gif)](examples/typography/) |
-| 软件演示 · Interface | |
-| [![Interface demo](examples/previews/interface.gif)](examples/interface/) | 每个案例风格独立；数据和品牌为演示虚构。案例不限制你的需求。 |
+<a href="examples/previews/product.mp4"><img src="examples/previews/product.gif" alt="STILL 产品动画预览" width="100%"></a>
 
-## 一个入口，作品由你决定
+[查看 MP4](examples/previews/product.mp4) · [查看源码](examples/product/film.js) · [运行案例](examples/README.md)
 
-产品介绍、动态排版、教学解释、数据可视化、界面动效……你决定要表达什么，它负责把需求落实到画面与可运行代码。
+### 换一种内容，也换一种表达
 
-- **需求驱动**：不规定你的风格、时长、镜头数、配色或声音。
-- **源码可编辑**：文字、布局、动作、时间和素材都能继续修改。
-- **从预览到视频**：用可定位时间的 HTML 动画采集帧，交给 FFmpeg 编码。
-- **按需验证**：生成可放大的检查页面；工具检测与实际视觉判断分别说明。
-- **可独立起步**：附带基础渲染运行时；已有适配版 `motion-showreel` 时可复用其高级工具。
+<table>
+<tr>
+<td width="50%"><a href="examples/previews/data.mp4"><img src="examples/previews/data.png" alt="数据叙事：通勤时间对比" width="100%"></a><br><strong>把数据讲清楚</strong><br>错峰增长的图表、同步变化的数字。<br><a href="examples/previews/data.mp4">看视频</a> · <a href="examples/data/film.js">看源码</a></td>
+<td width="50%"><a href="examples/previews/science.mp4"><img src="examples/previews/science.png" alt="科学讲解：横波传播与质点振动" width="100%"></a><br><strong>把原理演出来</strong><br>让传播的波与振动的质点各自可见。<br><a href="examples/previews/science.mp4">看视频</a> · <a href="examples/science/film.js">看源码</a></td>
+</tr>
+<tr>
+<td width="50%"><a href="examples/previews/typography.mp4"><img src="examples/previews/typography.png" alt="动态排版：MAKE ROOM FOR IDEAS" width="100%"></a><br><strong>让文字带动节奏</strong><br>大字、裁切与旋转，形成一句视觉宣言。<br><a href="examples/previews/typography.mp4">看视频</a> · <a href="examples/typography/film.js">看源码</a></td>
+<td width="50%"><a href="examples/previews/interface.mp4"><img src="examples/previews/interface.png" alt="软件演示：任务逐项完成" width="100%"></a><br><strong>让交互自己说明</strong><br>用光标、状态变化和反馈演示产品。<br><a href="examples/previews/interface.mp4">看视频</a> · <a href="examples/interface/film.js">看源码</a></td>
+</tr>
+</table>
 
-## 这样告诉它
+五支原创案例，每支 **8 秒 · 960×540 · 24 fps · 无声**，附 HTML、源码与再渲染命令。案例品牌及数据为虚构；它们展示可能性，下一部作品由你的需求决定。
+
+## 从你的需求开始
+
+给一个想法，也可以带上脚本、素材或品牌规范。题材、风格、时长和工作方式按这次需求选择。
 
 ```text
-用 $video-director 把这份产品介绍做成 HTML 动画视频。
-按附件里的品牌规范设计，重点突出交互体验，交付视频和可编辑源码。
+用 $video-director 做一支 20 秒的产品介绍视频。
+参考附件的品牌风格，重点演示三个关键交互。
+先给我看预览，最终交付 MP4 和可编辑 HTML 源码。
 ```
 
-也可以只说一个想法，或提供完整脚本与参考。要先讨论、先预览，还是直接完成，由你决定。字幕、配音、配乐和交付格式按本次需求选择。
+想把节奏放慢、标注挪开、字幕换一种写法？继续描述修改即可。已有 HTML 动画工程也可以接着做。
 
-## 安装与使用
+| 你带来的内容 | 可以继续完成的工作 |
+| --- | --- |
+| 想法、脚本、参考设计 | 组织画面，选择 HTML/CSS、SVG、Canvas 或 WebGL 实现 |
+| 第一版动画 | 修改文案、布局、动作、时间与素材 |
+| 准备交付的工程 | 导出视频，按作品需要检查关键帧与输出规格 |
 
-### 在 Codex 中使用技能
+字幕、旁白和音乐按需加入；所需素材和外部服务取决于实际可用环境。
 
-让技能安装器安装本仓库中的 `skills/video-director`：
+## 开始使用
+
+在 Codex 中，让技能安装器安装这个目录：
 
 ```text
 安装 https://github.com/maeheelam-beep/gpt6-html-video-skill/tree/main/skills/video-director
 ```
 
-或把该目录复制到你的用户技能目录。原生辅助命令需要在**已安装的技能目录**运行 `npm ci`，并准备 Node.js 20+、FFmpeg/FFprobe 和 Chrome、Chromium 或 Edge。
+安装后，在**已安装的 `video-director` 目录**执行 `npm ci`，准备好 **Node.js 20+、FFmpeg/FFprobe、Chrome / Chromium / Edge**。之后用 `$video-director` 加上你的需求开始。
 
-下一轮对话中，用 `$video-director` 加上你的需求开始。
-
-### 直接使用仓库中的辅助命令
+<details>
+<summary><strong>先在本地跑案例</strong></summary>
 
 ```bash
 git clone https://github.com/maeheelam-beep/gpt6-html-video-skill.git
 cd gpt6-html-video-skill
 npm --prefix skills/video-director ci
-node skills/video-director/scripts/studio.mjs doctor
+node skills/video-director/runtime/backend.mjs preview examples
 ```
 
-找不到浏览器时，设置 `CHROME_PATH` 为本机浏览器可执行文件路径。基础运行时不需要另外安装所有上游技能。
+打开终端打印的地址即可查看案例。GitHub 文件页展示源码，不执行 HTML。
+
+重新导出一个案例：
 
 ```bash
-# 技术起点：参数来自你的作品需求
-node skills/video-director/scripts/studio.mjs init my-film --duration 20 --size 1920x1080 --fps 24 --audio none
+node examples/render.mjs product
+```
 
-# 实现自己的画面后，在 project.json 中设置 starter=false
+找不到浏览器时，设置 `CHROME_PATH` 为浏览器可执行文件路径。
+
+</details>
+
+<details>
+<summary><strong>创建、渲染与检查自己的工程</strong></summary>
+
+以下参数是示例，按作品需求调整。辅助命令可选，也可沿用已有工具链。
+
+```bash
+node skills/video-director/scripts/studio.mjs doctor
+node skills/video-director/scripts/studio.mjs init my-film --duration 20 --size 1920x1080 --fps 24 --audio none
+# 实现画面后，在 project.json 中设置 starter=false
 node skills/video-director/scripts/studio.mjs render my-film --out film.mp4
 node skills/video-director/scripts/studio.mjs qa my-film/film.mp4 --project my-film
-
-# 可选：生成检查材料
 node skills/video-director/scripts/studio.mjs review my-film
 ```
 
-这些命令是可选工具，不是固定创作步骤。你也可以沿用已有 HTML 工程和渲染工具链。
+内置基础运行时支持单 worker、单采样、H.264 MP4 和已有音频混入；QA 检查规格、帧数、音轨与完整解码。视觉内容仍需实际审看。高级运动模糊、黑帧检测、响度测量及复杂 3D 等，需要相应工具。已安装的适配版 `motion-showreel` 可作为可选底座。
 
-## 你会得到什么
+</details>
 
-根据约定交付视频、可编辑 HTML 工程，以及需要的字幕、声音或说明。基础运行时支持单进程、单采样渲染、H.264 MP4 编码和已有音频混入；基础 QA 检查尺寸、帧率、时长、帧数、音轨与完整解码。黑帧检测、响度计量、复杂运动模糊等需要相应的高级工具。
+## 继续了解
 
-角色素材、视频模型、TTS、复杂 3D 或其他外部服务按实际工具与授权接入。这个技能不训练模型、不切换账号设置，也不把提示词当成已经生成的影片。
+[案例与运行说明](examples/README.md) · [技能本体](skills/video-director/SKILL.md) · [运行环境](skills/video-director/references/runtime.md) · [实现选项](skills/video-director/references/routes.md) · [检查工具](skills/video-director/references/review.md) · [验证范围](docs/VALIDATION.md) · [发布文案](docs/ANNOUNCEMENTS.md)
 
-## 文档
+欢迎在 Issues 中反馈问题，也欢迎提交新的案例。描述预期效果、实际结果和复现方式，会更方便一起改进。
 
-- [技能本体](skills/video-director/SKILL.md)
-- [运行环境与规格](skills/video-director/references/runtime.md)
-- [可选实现能力](skills/video-director/references/routes.md)
-- [检查工具与边界](skills/video-director/references/review.md)
-- [实际验证范围](docs/VALIDATION.md)
-- [中英日发布文案](docs/ANNOUNCEMENTS.md)
+---
 
-## 致谢与许可
+参考与致谢：[Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar)、[Garden Skills](https://github.com/ConardLi/garden-skills)、[AI Animation](https://github.com/Unclecheng-li/AI_Animation)。上游完整素材库未随仓库分发。
 
-整合与参考了 [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar)、[Garden Skills](https://github.com/ConardLi/garden-skills) 和 [AI Animation](https://github.com/Unclecheng-li/AI_Animation) 的相关能力与工作方法。按需使用，不携带历史用户项目，也不重新分发它们的完整素材库。
-
-本仓库代码与文档采用 [MIT License](LICENSE)。第三方素材和依赖适用各自许可，见 [第三方说明](THIRD_PARTY_NOTICES.md)。本项目为社区项目，与 OpenAI 无隶属或背书关系。
+[MIT License](LICENSE) · [第三方说明](THIRD_PARTY_NOTICES.md)。社区项目，与 OpenAI 无隶属或背书关系。

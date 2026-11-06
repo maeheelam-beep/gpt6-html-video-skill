@@ -1,1 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="480" viewBox="0 0 1440 480"><rect width="1440" height="480" rx="24" fill="#f1efe8"/><g font-family="Arial,Helvetica,sans-serif"><text x="68" y="77" fill="#5e665e" font-size="16" letter-spacing="4">GPT6 · HTML VIDEO SKILL</text><text x="65" y="156" font-size="59" fill="#18231e" font-weight="700">Your brief. Your style.</text><text x="68" y="207" font-size="30" fill="#57635c">Editable HTML, rendered as video.</text><g transform="translate(68 265)"><rect width="390" height="146" rx="12" fill="#fff"/><text x="24" y="38" fill="#617469" font-size="13" letter-spacing="2">01 / YOUR IDEA</text><text x="24" y="82" fill="#1d352a" font-size="25">A story worth moving.</text><path d="M24 112h180" stroke="#b8c7be" stroke-width="3"/></g><g transform="translate(525 265)"><rect width="390" height="146" rx="12" fill="#1d352a"/><text x="24" y="38" fill="#94baaa" font-size="13" letter-spacing="2">02 / HTML ANIMATION</text><text x="24" y="82" fill="#eef2e8" font-size="24" font-family="monospace">render(time)</text><path d="M24 116c45-65 90 32 135-18s90-34 150-12" fill="none" stroke="#d2af71" stroke-width="3"/></g><g transform="translate(982 265)"><rect width="390" height="146" rx="12" fill="#d8e6dc"/><text x="24" y="38" fill="#526b5c" font-size="13" letter-spacing="2">03 / VIDEO + SOURCE</text><rect x="24" y="62" width="100" height="59" rx="6" fill="#1d352a"/><path d="m66 77 22 14-22 14z" fill="#f1efe8"/><text x="149" y="99" fill="#1d352a" font-size="24">Keep creating.</text></g><path d="m476 335 25 0m-8-8 8 8-8 8m440-8 25 0m-8-8 8 8-8 8" fill="none" stroke="#8b9c91" stroke-width="2"/><text x="1040" y="85" fill="#65726a" font-size="16">HTML / CSS / SVG / CANVAS / WEBGL</text></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="360" viewBox="0 0 1440 360" role="img" aria-label="Make it move. Keep it editable.">
+<rect width="1440" height="360" rx="14" fill="#e2ecf5"/>
+<g font-family="Arial,Helvetica,sans-serif">
+<text x="58" y="55" font-size="14" letter-spacing="3" fill="#526781">GPT6 / HTML VIDEO SKILL</text>
+<text x="54" y="142" font-size="67" font-weight="700" letter-spacing="-3" fill="#1e3655">Make it move.</text>
+<text x="54" y="214" font-size="67" font-weight="700" letter-spacing="-3" fill="#1e3655">Keep it editable.</text>
+<text x="58" y="274" font-size="20" fill="#526781">Your idea → HTML animation → Video + source</text>
+<g transform="translate(850 45)"><rect width="530" height="205" rx="9" fill="#1e3655"/>
+<circle cx="23" cy="21" r="4" fill="#9bb0ca"/><circle cx="38" cy="21" r="4" fill="#9bb0ca"/><circle cx="53" cy="21" r="4" fill="#9bb0ca"/>
+<text x="404" y="25" fill="#b4c9df" font-size="11" letter-spacing="2">PREVIEW</text>
+<path d="M26 145C80 145 70 70 125 70S174 145 227 145 280 70 335 70 390 145 445 145 480 97 504 97" fill="none" stroke="#90c4dc" stroke-width="3"/>
+<circle cx="335" cy="70" r="7" fill="#f9b588"/><path d="M335 40V173" stroke="#f9b588" stroke-opacity=".4" stroke-dasharray="4 4"/>
+<text x="25" y="185" font-size="13" fill="#a9c3dd" font-family="Consolas,monospace">render(time)</text></g>
+<g transform="translate(850 266)"><rect width="530" height="49" rx="5" fill="#c7d9e9"/>
+<rect x="9" y="9" width="123" height="31" rx="3" fill="#7e9dbd"/><rect x="137" y="9" width="186" height="31" rx="3" fill="#a5bdd3"/><rect x="328" y="9" width="193" height="31" rx="3" fill="#7e9dbd"/>
+<path d="M335-13V57" stroke="#d57843" stroke-width="2"/><path d="m329-14 12 0-6 7z" fill="#d57843"/>
+<text x="16" y="66" font-size="11" fill="#526781" letter-spacing="1">SEEK THE FRAME.</text><text x="365" y="66" font-size="11" fill="#526781" letter-spacing="1">CHANGE THE SOURCE.</text>
+</g></g></svg>

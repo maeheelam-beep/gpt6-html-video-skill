@@ -1,44 +1,59 @@
-<p align="center"><img src="docs/hero.svg" alt="Your brief. Your style. HTML to video." width="100%"></p>
+<p align="center"><img src="docs/hero.svg" alt="Make it move. Keep it editable." width="100%"></p>
 
 # GPT6 HTML Video Skill
 
-### Your brief. Your style. Editable HTML, rendered as video.
+### Make it move. Keep it editable.
 
-A demand-driven animation skill for GPT-6 / Codex. Bring an idea, a script, a reference, or an existing project. Build with HTML/CSS, SVG, Canvas, or WebGL, keep the source, and render the result to video.
+Turn an idea, script, or reference into **HTML animation, then render it to video** with GPT-6 / Codex. Keep the source to refine the words, layout, motion, and timing.
 
-[中文](README.md) · [English](README.en.md) · [日本語](README.ja.md)
+**[Explore examples](examples/README.md) · [Get started](#get-started) · [中文](README.md) · [日本語](README.ja.md)**
 
-## Five briefs. Five visual languages.
+## See it in motion
 
-Original examples include **8-second MP4s, runnable HTML, editable animation code, and rendering commands**. See the [example gallery](examples/README.md). Brands and data are fictional demonstrations; the examples do not prescribe your next project's style.
+**Product concept · STILL**
 
-| Product film | Data story |
-| --- | --- |
-| [![Product](examples/previews/product.gif)](examples/product/) | [![Data](examples/previews/data.gif)](examples/data/) |
-| Science explainer | Kinetic typography |
-| [![Science](examples/previews/science.gif)](examples/science/) | [![Typography](examples/previews/typography.gif)](examples/typography/) |
-| Interface demo | |
-| [![Interface](examples/previews/interface.gif)](examples/interface/) | Five distinct directions. All source included. |
+An imagined focus device, brought to life through materials, gentle movement, and a changing waveform.
 
-## What makes it useful
+<a href="examples/previews/product.mp4"><img src="examples/previews/product.gif" alt="STILL product film" width="100%"></a>
 
-- **The brief leads.** No prescribed visual style, duration, shot count, palette, or soundtrack.
-- **The source stays editable.** Change the copy, layout, motion, timing, and assets.
-- **A practical export path.** Seek browser animation to a known time, capture frames, encode with FFmpeg.
-- **Optional review tools.** Inspect frame sheets and project-defined checks; automated success is not a substitute for watching the result.
-- **Start independently.** A basic runtime is included. An installed, adapted `motion-showreel` can provide additional rendering and QA capabilities.
+[Watch MP4](examples/previews/product.mp4) · [Read the code](examples/product/film.js) · [Run the examples](examples/README.md)
 
-## Try a brief
+### Different content calls for different motion
+
+<table>
+<tr>
+<td width="50%"><a href="examples/previews/data.mp4"><img src="examples/previews/data.png" alt="Animated illustrative commute chart" width="100%"></a><br><strong>Give data a story</strong><br>Staggered bars. Numbers that follow the motion.<br><a href="examples/previews/data.mp4">Watch</a> · <a href="examples/data/film.js">Source</a></td>
+<td width="50%"><a href="examples/previews/science.mp4"><img src="examples/previews/science.png" alt="Transverse wave model" width="100%"></a><br><strong>Make a principle visible</strong><br>Track a moving wave and an oscillating particle.<br><a href="examples/previews/science.mp4">Watch</a> · <a href="examples/science/film.js">Source</a></td>
+</tr>
+<tr>
+<td width="50%"><a href="examples/previews/typography.mp4"><img src="examples/previews/typography.png" alt="Make room for ideas" width="100%"></a><br><strong>Let type set the rhythm</strong><br>Big lettering, masked reveals, a rotating accent.<br><a href="examples/previews/typography.mp4">Watch</a> · <a href="examples/typography/film.js">Source</a></td>
+<td width="50%"><a href="examples/previews/interface.mp4"><img src="examples/previews/interface.png" alt="Fictional task interface" width="100%"></a><br><strong>Show how a product works</strong><br>A cursor, changing states, and useful feedback.<br><a href="examples/previews/interface.mp4">Watch</a> · <a href="examples/interface/film.js">Source</a></td>
+</tr>
+</table>
+
+Five original examples, each **8 seconds · 960×540 · 24 fps · silent**, with HTML, source, and rendering commands. Brands and data are fictional. These examples show possibilities; your brief sets the next direction.
+
+## Start with your brief
+
+Bring an idea, a script, assets, or brand guidelines. The content, style, duration, and way of working follow your request.
 
 ```text
-Use $video-director to turn this product brief into an HTML animation video.
-Follow the attached brand guidelines. Emphasize the interaction experience.
-Deliver the video and editable source.
+Use $video-director to make a 20-second product introduction.
+Follow the attached brand guidelines and demonstrate three key interactions.
+Show me a preview first. Deliver MP4 and editable HTML source.
 ```
 
-Provide as much or as little direction as you want. Discussion, preview approvals, captions, narration, music, and output formats follow the current request.
+Slow the pace, move a label, rewrite a caption: describe the change and continue from the existing project. You can also bring an HTML animation you've already started.
 
-## Install
+| What you bring | What you can work on |
+| --- | --- |
+| An idea, script, or reference | Compose the visuals with HTML/CSS, SVG, Canvas, or WebGL |
+| A first animation | Refine copy, layout, motion, timing, and assets |
+| A project ready for delivery | Render video and inspect relevant frames and output specs |
+
+Captions, narration, and music are optional. Assets and external services depend on the tools available in your environment.
+
+## Get started
 
 Ask the Codex skill installer to install:
 
@@ -46,20 +61,35 @@ Ask the Codex skill installer to install:
 https://github.com/maeheelam-beep/gpt6-html-video-skill/tree/main/skills/video-director
 ```
 
-Or copy `skills/video-director` into your user skills directory. For the native helper commands, run `npm ci` in the **installed skill directory**. Prerequisites: Node.js 20+, FFmpeg/FFprobe, and Chrome, Chromium, or Edge. Set `CHROME_PATH` if browser discovery fails.
+Run `npm ci` in the **installed `video-director` directory**. Prepare **Node.js 20+, FFmpeg/FFprobe, and Chrome / Chromium / Edge**, then invoke `$video-director` with your brief.
 
-To use the repository directly:
+<details>
+<summary><strong>Run an example locally</strong></summary>
 
 ```bash
 git clone https://github.com/maeheelam-beep/gpt6-html-video-skill.git
 cd gpt6-html-video-skill
 npm --prefix skills/video-director ci
-node skills/video-director/scripts/studio.mjs doctor
+node skills/video-director/runtime/backend.mjs preview examples
 ```
 
-Optional commands:
+Open the URL printed in the terminal. GitHub file pages display source; they do not execute HTML. To render an example again:
 
 ```bash
+node examples/render.mjs product
+```
+
+Set `CHROME_PATH` to your browser executable if discovery fails.
+
+</details>
+
+<details>
+<summary><strong>Create, render, and check a project</strong></summary>
+
+Adjust these example parameters to your project. The helper commands are optional; existing projects can keep their toolchain.
+
+```bash
+node skills/video-director/scripts/studio.mjs doctor
 node skills/video-director/scripts/studio.mjs init my-film --duration 20 --size 1920x1080 --fps 24 --audio none
 # Implement your content, then set starter=false in project.json.
 node skills/video-director/scripts/studio.mjs render my-film --out film.mp4
@@ -67,14 +97,18 @@ node skills/video-director/scripts/studio.mjs qa my-film/film.mp4 --project my-f
 node skills/video-director/scripts/studio.mjs review my-film
 ```
 
-These are helpers, not a prescribed creative sequence. Existing projects may keep their own build pipeline.
+The bundled runtime supports one worker/sample, H.264 MP4, and mixing an existing audio file. Basic QA checks specs, frame count, audio presence, and full decoding; visual content still needs inspection. Advanced motion blur, black-frame detection, audio metering, and complex 3D require suitable tools. An installed, adapted `motion-showreel` is an optional backend.
 
-## Scope
+</details>
 
-The bundled renderer supports one worker/sample, H.264 MP4, and mixing an existing audio file. Basic QA covers metadata, frame count, audio presence, and full decoding. Advanced motion blur, black-frame detection, and audio metering require suitable additional tools. Video-generation models, TTS, character assets, and complex 3D depend on the actual environment and authorization.
+## Go further
 
-See [validation](docs/VALIDATION.md), [skill instructions](skills/video-director/SKILL.md), and [announcement copy](docs/ANNOUNCEMENTS.md).
+[Examples](examples/README.md) · [Skill instructions](skills/video-director/SKILL.md) · [Runtime](skills/video-director/references/runtime.md) · [Implementation options](skills/video-director/references/routes.md) · [Review tools](skills/video-director/references/review.md) · [Validation](docs/VALIDATION.md) · [Announcement copy](docs/ANNOUNCEMENTS.md)
 
-Inspired by and integrating optional capabilities from [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar), [Garden Skills](https://github.com/ConardLi/garden-skills), and [AI Animation](https://github.com/Unclecheng-li/AI_Animation). No historical user projects or upstream media collections are bundled.
+Issues and new examples are welcome. Include the intended result, actual result, and reproduction steps when reporting a problem.
 
-[MIT](LICENSE). Third-party assets and dependencies retain their own licenses. Community project; not affiliated with or endorsed by OpenAI.
+---
+
+References and thanks: [Lemo-Opuscar](https://github.com/lemomo-ai/lemo-opuscar), [Garden Skills](https://github.com/ConardLi/garden-skills), and [AI Animation](https://github.com/Unclecheng-li/AI_Animation). Upstream media libraries are not bundled.
+
+[MIT License](LICENSE) · [Third-party notices](THIRD_PARTY_NOTICES.md). Community project; not affiliated with or endorsed by OpenAI.
