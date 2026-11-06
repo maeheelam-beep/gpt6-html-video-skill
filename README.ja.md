@@ -14,20 +14,20 @@ GPT-6 / Codexでアイデアや台本、参考デザインを **HTMLアニメー
 
 架空の集中支援デバイスを、素材感、穏やかな動き、画面の波形で表現しました。
 
-<a href="https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=product"><img src="examples/previews/product.gif" alt="STILL 製品アニメーション" width="100%"></a>
+<a href="https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/product.mp4"><img src="examples/previews/product.gif" alt="STILL 製品アニメーション" width="100%"></a>
 
-[オンライン再生](https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=product) · [ソースを見る](examples/product/film.js) · [作例を動かす](examples/README.md)
+[MP4をダウンロード](https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/product.mp4) · [ソースを見る](examples/product/film.js) · [作例を動かす](examples/README.md)
 
 ### 伝える内容に合わせて、表現も変える
 
 <table>
 <tr>
-<td width="50%"><a href="https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=data"><img src="examples/previews/data.gif" alt="架空の通勤時間を比較するグラフ" width="100%"></a><br><strong>データに流れをつくる</strong><br>順に伸びる棒グラフと、連動する数値。<br><a href="https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=data">動画</a> · <a href="examples/data/film.js">ソース</a></td>
-<td width="50%"><a href="https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=science"><img src="examples/previews/science.gif" alt="横波の模式図" width="100%"></a><br><strong>原理を目に見える形に</strong><br>進む波と、振動する粒子を描き分ける。<br><a href="https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=science">動画</a> · <a href="examples/science/film.js">ソース</a></td>
+<td width="50%"><a href="https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/data.mp4"><img src="examples/previews/data.gif" alt="架空の通勤時間を比較するグラフ" width="100%"></a><br><strong>データに流れをつくる</strong><br>順に伸びる棒グラフと、連動する数値。<br><a href="https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/data.mp4">MP4をダウンロード</a> · <a href="examples/data/film.js">ソース</a></td>
+<td width="50%"><a href="https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/science.mp4"><img src="examples/previews/science.gif" alt="横波の模式図" width="100%"></a><br><strong>原理を目に見える形に</strong><br>進む波と、振動する粒子を描き分ける。<br><a href="https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/science.mp4">MP4をダウンロード</a> · <a href="examples/science/film.js">ソース</a></td>
 </tr>
 <tr>
-<td width="50%"><a href="https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=typography"><img src="examples/previews/typography.gif" alt="MAKE ROOM FOR IDEAS" width="100%"></a><br><strong>文字でリズムをつくる</strong><br>大きな文字、マスク、回転する図形。<br><a href="https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=typography">動画</a> · <a href="examples/typography/film.js">ソース</a></td>
-<td width="50%"><a href="https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=interface"><img src="examples/previews/interface.gif" alt="架空のタスク管理アプリ" width="100%"></a><br><strong>操作で使い方を伝える</strong><br>カーソル、状態変化、完了のフィードバック。<br><a href="https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=interface">動画</a> · <a href="examples/interface/film.js">ソース</a></td>
+<td width="50%"><a href="https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/typography.mp4"><img src="examples/previews/typography.gif" alt="MAKE ROOM FOR IDEAS" width="100%"></a><br><strong>文字でリズムをつくる</strong><br>大きな文字、マスク、回転する図形。<br><a href="https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/typography.mp4">MP4をダウンロード</a> · <a href="examples/typography/film.js">ソース</a></td>
+<td width="50%"><a href="https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/interface.mp4"><img src="examples/previews/interface.gif" alt="架空のタスク管理アプリ" width="100%"></a><br><strong>操作で使い方を伝える</strong><br>カーソル、状態変化、完了のフィードバック。<br><a href="https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/interface.mp4">MP4をダウンロード</a> · <a href="examples/interface/film.js">ソース</a></td>
 </tr>
 </table>
 

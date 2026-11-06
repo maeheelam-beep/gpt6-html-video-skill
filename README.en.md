@@ -14,20 +14,20 @@ Turn an idea, script, or reference into **HTML animation, then render it to vide
 
 An imagined focus device, brought to life through materials, gentle movement, and a changing waveform.
 
-<a href="https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=product"><img src="examples/previews/product.gif" alt="STILL product film" width="100%"></a>
+<a href="https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/product.mp4"><img src="examples/previews/product.gif" alt="STILL product film" width="100%"></a>
 
-[Watch online](https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=product) · [Read the code](examples/product/film.js) · [Run the examples](examples/README.md)
+[Download MP4](https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/product.mp4) · [Read the code](examples/product/film.js) · [Run the examples](examples/README.md)
 
 ### Different content calls for different motion
 
 <table>
 <tr>
-<td width="50%"><a href="https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=data"><img src="examples/previews/data.gif" alt="Animated illustrative commute chart" width="100%"></a><br><strong>Give data a story</strong><br>Staggered bars. Numbers that follow the motion.<br><a href="https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=data">Watch</a> · <a href="examples/data/film.js">Source</a></td>
-<td width="50%"><a href="https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=science"><img src="examples/previews/science.gif" alt="Transverse wave model" width="100%"></a><br><strong>Make a principle visible</strong><br>Track a moving wave and an oscillating particle.<br><a href="https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=science">Watch</a> · <a href="examples/science/film.js">Source</a></td>
+<td width="50%"><a href="https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/data.mp4"><img src="examples/previews/data.gif" alt="Animated illustrative commute chart" width="100%"></a><br><strong>Give data a story</strong><br>Staggered bars. Numbers that follow the motion.<br><a href="https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/data.mp4">Download MP4</a> · <a href="examples/data/film.js">Source</a></td>
+<td width="50%"><a href="https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/science.mp4"><img src="examples/previews/science.gif" alt="Transverse wave model" width="100%"></a><br><strong>Make a principle visible</strong><br>Track a moving wave and an oscillating particle.<br><a href="https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/science.mp4">Download MP4</a> · <a href="examples/science/film.js">Source</a></td>
 </tr>
 <tr>
-<td width="50%"><a href="https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=typography"><img src="examples/previews/typography.gif" alt="Make room for ideas" width="100%"></a><br><strong>Let type set the rhythm</strong><br>Big lettering, masked reveals, a rotating accent.<br><a href="https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=typography">Watch</a> · <a href="examples/typography/film.js">Source</a></td>
-<td width="50%"><a href="https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=interface"><img src="examples/previews/interface.gif" alt="Fictional task interface" width="100%"></a><br><strong>Show how a product works</strong><br>A cursor, changing states, and useful feedback.<br><a href="https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=interface">Watch</a> · <a href="examples/interface/film.js">Source</a></td>
+<td width="50%"><a href="https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/typography.mp4"><img src="examples/previews/typography.gif" alt="Make room for ideas" width="100%"></a><br><strong>Let type set the rhythm</strong><br>Big lettering, masked reveals, a rotating accent.<br><a href="https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/typography.mp4">Download MP4</a> · <a href="examples/typography/film.js">Source</a></td>
+<td width="50%"><a href="https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/interface.mp4"><img src="examples/previews/interface.gif" alt="Fictional task interface" width="100%"></a><br><strong>Show how a product works</strong><br>A cursor, changing states, and useful feedback.<br><a href="https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/interface.mp4">Download MP4</a> · <a href="examples/interface/film.js">Source</a></td>
 </tr>
 </table>
 

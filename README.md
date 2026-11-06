@@ -14,20 +14,20 @@
 
 一个虚构的专注设备，用材质、姿态和屏幕波形讲述“安静”。
 
-<a href="https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=product"><img src="examples/previews/product.gif" alt="STILL 产品动画预览" width="100%"></a>
+<a href="https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/product.mp4"><img src="examples/previews/product.gif" alt="STILL 产品动画预览" width="100%"></a>
 
-[在线播放](https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=product) · [查看源码](examples/product/film.js) · [运行案例](examples/README.md)
+[下载 MP4](https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/product.mp4) · [查看源码](examples/product/film.js) · [运行案例](examples/README.md)
 
 ### 换一种内容，也换一种表达
 
 <table>
 <tr>
-<td width="50%"><a href="https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=data"><img src="examples/previews/data.gif" alt="数据叙事：通勤时间对比" width="100%"></a><br><strong>把数据讲清楚</strong><br>错峰增长的图表、同步变化的数字。<br><a href="https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=data">看视频</a> · <a href="examples/data/film.js">看源码</a></td>
-<td width="50%"><a href="https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=science"><img src="examples/previews/science.gif" alt="科学讲解：横波传播与质点振动" width="100%"></a><br><strong>把原理演出来</strong><br>让传播的波与振动的质点各自可见。<br><a href="https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=science">看视频</a> · <a href="examples/science/film.js">看源码</a></td>
+<td width="50%"><a href="https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/data.mp4"><img src="examples/previews/data.gif" alt="数据叙事：通勤时间对比" width="100%"></a><br><strong>把数据讲清楚</strong><br>错峰增长的图表、同步变化的数字。<br><a href="https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/data.mp4">下载 MP4</a> · <a href="examples/data/film.js">看源码</a></td>
+<td width="50%"><a href="https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/science.mp4"><img src="examples/previews/science.gif" alt="科学讲解：横波传播与质点振动" width="100%"></a><br><strong>把原理演出来</strong><br>让传播的波与振动的质点各自可见。<br><a href="https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/science.mp4">下载 MP4</a> · <a href="examples/science/film.js">看源码</a></td>
 </tr>
 <tr>
-<td width="50%"><a href="https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=typography"><img src="examples/previews/typography.gif" alt="动态排版：MAKE ROOM FOR IDEAS" width="100%"></a><br><strong>让文字带动节奏</strong><br>大字、裁切与旋转，形成一句视觉宣言。<br><a href="https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=typography">看视频</a> · <a href="examples/typography/film.js">看源码</a></td>
-<td width="50%"><a href="https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=interface"><img src="examples/previews/interface.gif" alt="软件演示：任务逐项完成" width="100%"></a><br><strong>让交互自己说明</strong><br>用光标、状态变化和反馈演示产品。<br><a href="https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/watch.html?clip=interface">看视频</a> · <a href="examples/interface/film.js">看源码</a></td>
+<td width="50%"><a href="https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/typography.mp4"><img src="examples/previews/typography.gif" alt="动态排版：MAKE ROOM FOR IDEAS" width="100%"></a><br><strong>让文字带动节奏</strong><br>大字、裁切与旋转，形成一句视觉宣言。<br><a href="https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/typography.mp4">下载 MP4</a> · <a href="examples/typography/film.js">看源码</a></td>
+<td width="50%"><a href="https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/interface.mp4"><img src="examples/previews/interface.gif" alt="软件演示：任务逐项完成" width="100%"></a><br><strong>让交互自己说明</strong><br>用光标、状态变化和反馈演示产品。<br><a href="https://github.com/maeheelam-beep/gpt6-html-video-skill/raw/refs/heads/main/examples/previews/interface.mp4">下载 MP4</a> · <a href="examples/interface/film.js">看源码</a></td>
 </tr>
 </table>
 
