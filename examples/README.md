@@ -1,5 +1,9 @@
 # Five briefs. Five visual languages.
 
+**[在线播放全部案例 / Watch online](https://maeheelam-beep.github.io/gpt6-html-video-skill/examples/)**
+
+在线页面支持视频播放、拖动进度、全屏、下载，以及打开实时 HTML 动画。下方 MP4 链接为仓库文件入口。
+
 五种内容，五种表达。以下均为原创、无外部素材的 **8 秒 / 960×540 / 24 fps / 无声**短示例，展示不同需求如何决定画面。它们是可编辑案例，不是技能要求所有用户照搬的模板。
 
 Original, editable, silent demonstrations. These examples illustrate possibilities; they do not prescribe the next user's style or production process. / 異なる目的に合わせた、編集可能なオリジナル作例です。
