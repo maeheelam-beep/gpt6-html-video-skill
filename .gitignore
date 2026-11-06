@@ -1,0 +1,13 @@
+**/node_modules/
+**/qa/
+**/.DS_Store
+**/__pycache__/
+.env
+.env.*
+!.env.example
+*.log
+*.mp4
+*.wav
+*.mp3
+outputs/
+work/
