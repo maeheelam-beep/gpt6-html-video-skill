@@ -103,7 +103,7 @@ The bundled runtime supports one worker/sample, H.264 MP4, and mixing an existin
 
 ## Go further
 
-[Examples](examples/README.md) · [Skill instructions](skills/video-director/SKILL.md) · [Runtime](skills/video-director/references/runtime.md) · [Implementation options](skills/video-director/references/routes.md) · [Review tools](skills/video-director/references/review.md) · [Validation](docs/VALIDATION.md) · [Announcement copy](docs/ANNOUNCEMENTS.md)
+[Examples](examples/README.md) · [Skill instructions](skills/video-director/SKILL.md) · [Runtime](skills/video-director/references/runtime.md) · [Implementation options](skills/video-director/references/routes.md) · [Review tools](skills/video-director/references/review.md) · [Validation](docs/VALIDATION.md)
 
 Issues and new examples are welcome. Include the intended result, actual result, and reproduction steps when reporting a problem.
 

@@ -105,7 +105,7 @@ node skills/video-director/scripts/studio.mjs review my-film
 
 ## 继续了解
 
-[案例与运行说明](examples/README.md) · [技能本体](skills/video-director/SKILL.md) · [运行环境](skills/video-director/references/runtime.md) · [实现选项](skills/video-director/references/routes.md) · [检查工具](skills/video-director/references/review.md) · [验证范围](docs/VALIDATION.md) · [发布文案](docs/ANNOUNCEMENTS.md)
+[案例与运行说明](examples/README.md) · [技能本体](skills/video-director/SKILL.md) · [运行环境](skills/video-director/references/runtime.md) · [实现选项](skills/video-director/references/routes.md) · [检查工具](skills/video-director/references/review.md) · [验证范围](docs/VALIDATION.md)
 
 欢迎在 Issues 中反馈问题，也欢迎提交新的案例。描述预期效果、实际结果和复现方式，会更方便一起改进。
 

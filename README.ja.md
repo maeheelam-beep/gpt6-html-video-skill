@@ -103,7 +103,7 @@ node skills/video-director/scripts/studio.mjs review my-film
 
 ## 詳しく見る
 
-[作例と実行方法](examples/README.md) · [スキル本体](skills/video-director/SKILL.md) · [実行環境](skills/video-director/references/runtime.md) · [実装の選択肢](skills/video-director/references/routes.md) · [確認ツール](skills/video-director/references/review.md) · [検証範囲](docs/VALIDATION.md) · [紹介文](docs/ANNOUNCEMENTS.md)
+[作例と実行方法](examples/README.md) · [スキル本体](skills/video-director/SKILL.md) · [実行環境](skills/video-director/references/runtime.md) · [実装の選択肢](skills/video-director/references/routes.md) · [確認ツール](skills/video-director/references/review.md) · [検証範囲](docs/VALIDATION.md)
 
 不具合の報告や新しい作例を歓迎します。期待した結果、実際の結果、再現方法を添えていただけると改善に役立ちます。
 
