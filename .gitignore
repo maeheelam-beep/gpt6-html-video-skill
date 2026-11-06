@@ -7,6 +7,7 @@
 !.env.example
 *.log
 *.mp4
+!examples/previews/*.mp4
 *.wav
 *.mp3
 outputs/

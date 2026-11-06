@@ -8,6 +8,18 @@ A demand-driven animation skill for GPT-6 / Codex. Bring an idea, a script, a re
 
 [中文](README.md) · [English](README.en.md) · [日本語](README.ja.md)
 
+## Five briefs. Five visual languages.
+
+Original examples include **8-second MP4s, runnable HTML, editable animation code, and rendering commands**. See the [example gallery](examples/README.md). Brands and data are fictional demonstrations; the examples do not prescribe your next project's style.
+
+| Product film | Data story |
+| --- | --- |
+| [![Product](examples/previews/product.gif)](examples/product/) | [![Data](examples/previews/data.gif)](examples/data/) |
+| Science explainer | Kinetic typography |
+| [![Science](examples/previews/science.gif)](examples/science/) | [![Typography](examples/previews/typography.gif)](examples/typography/) |
+| Interface demo | |
+| [![Interface](examples/previews/interface.gif)](examples/interface/) | Five distinct directions. All source included. |
+
 ## What makes it useful
 
 - **The brief leads.** No prescribed visual style, duration, shot count, palette, or soundtrack.

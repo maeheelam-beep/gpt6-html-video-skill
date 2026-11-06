@@ -1,0 +1,10 @@
+{
+  "starter": false,
+  "height": 540,
+  "duration": 8,
+  "version": 1,
+  "width": 960,
+  "route": "code",
+  "fps": 24,
+  "audio": "none"
+}

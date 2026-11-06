@@ -8,6 +8,18 @@ GPT-6 / Codex向けの動画制作スキルです。アイデア、台本、参�
 
 [中文](README.md) · [English](README.en.md) · [日本語](README.ja.md)
 
+## 5つの目的、5つの表現
+
+**8秒のMP4、実行できるHTML、編集可能なソース、再レンダリング用コマンド**を公開しています。[作例一覧](examples/README.md)へ。ブランドとデータは架空のデモです。次の作品の作風を固定するものではありません。
+
+| 製品コンセプト | データストーリー |
+| --- | --- |
+| [![Product](examples/previews/product.gif)](examples/product/) | [![Data](examples/previews/data.gif)](examples/data/) |
+| 科学の解説 | キネティック・タイポグラフィ |
+| [![Science](examples/previews/science.gif)](examples/science/) | [![Typography](examples/previews/typography.gif)](examples/typography/) |
+| UIデモ | |
+| [![Interface](examples/previews/interface.gif)](examples/interface/) | それぞれ異なる表現と、編集できるコード。 |
+
 ## 特長
 
 - **要望から設計する。** 作風、尺、カット数、配色、音楽を固定しません。

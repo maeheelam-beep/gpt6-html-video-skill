@@ -10,6 +10,18 @@
 
 [中文](README.md) · [English](README.en.md) · [日本語](README.ja.md)
 
+## 先看作品：五种需求，五种表达
+
+原创案例均附 **8 秒 MP4、可运行 HTML、动画源码和再渲染命令**。以下为轻量 GIF 预览，完整画质见[案例合集](examples/README.md)。
+
+| 产品概念片 · Product | 数据叙事 · Data |
+| --- | --- |
+| [![Product film](examples/previews/product.gif)](examples/README.md#01--product-film--产品概念片) | [![Data story](examples/previews/data.gif)](examples/README.md#02--data-story--数据叙事) |
+| 科学原理 · Science | 动态排版 · Typography |
+| [![Science explainer](examples/previews/science.gif)](examples/science/) | [![Kinetic typography](examples/previews/typography.gif)](examples/typography/) |
+| 软件演示 · Interface | |
+| [![Interface demo](examples/previews/interface.gif)](examples/interface/) | 每个案例风格独立；数据和品牌为演示虚构。案例不限制你的需求。 |
+
 ## 一个入口，作品由你决定
 
 产品介绍、动态排版、教学解释、数据可视化、界面动效……你决定要表达什么，它负责把需求落实到画面与可运行代码。

@@ -18,3 +18,6 @@ Run unit tests:
 npm --prefix skills/video-director ci
 npm --prefix skills/video-director test
 ```
+# Published example suite
+
+Five original examples (product, data, science, typography, interface) were rendered using the bundled backend at 960×540, 24 fps, 8 seconds, 192 frames each, without audio. All five passed metadata, frame count, audio-presence and full-decode checks. Encoded frames were visually sampled at multiple times for layout, clipping and content. GIF previews are reduced to 480×270 at 10 fps. System fonts may vary; these examples do not validate arbitrary future content, environments or advanced rendering features.
